@@ -1,0 +1,22 @@
+.wr {
+	background: transparent;
+}
+
+.headerMenu {
+	display: flex;
+	list-style: none; /*убирает декарации(точки перед тегами Li)*/
+	gap: 8px; /*расстояние между ссылками*/
+}
+
+.headerMenu li:nth-child(2){
+	margin-left: auto;
+}
+
+.headerMenu a{
+	text-decoration: none; /*убирает подчеркивание*/
+}
+
+.activLink {
+	color: orange;
+}
+
